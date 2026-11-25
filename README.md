@@ -32,7 +32,7 @@
 
 <img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
 
-点击 **Rename** 后，你的网站会自动发布到：https://your-username.github.io/。名为 `index.html` 的 HTML 文件会作为首页渲染，下一步你将修改这个文件。
+点击 **Rename** 后，你的网站会自动发布到：https://your-username.github.io/.名为 `index.html` 的 HTML 文件会作为首页渲染，下一步你将修改这个文件。
 
 恭喜！你刚刚发布了第一个 GitHub Pages 网站，现在可以向全世界分享了。
 
