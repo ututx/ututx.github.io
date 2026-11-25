@@ -1,18 +1,63 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="zh-CN">
 <head>
-  <元 http-equiv="Content-Type" 内容=text/html; charset=utf-8/>
-  <标题>my-first-website</标题>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ututx</title>
+  <meta name="description" content="ututx 的个人主页：macOS 虚拟化、系统底层与工具开发。">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="hero">
+    <img class="avatar" src="./images/create-octocat.png" alt="ututx 的头像" width="120" height="120">
+    <h1>ututx</h1>
+    <p class="tagline">折腾 macOS 虚拟化、系统底层与构建工具</p>
+    <nav class="links">
+      <a href="https://github.com/ututx" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/ututx/macOS-DroidVM" target="_blank" rel="noopener">macOS-DroidVM</a>
+    </nav>
+  </header>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+  <main>
+    <section id="about">
+      <h2>关于</h2>
+      <p>
+        这里记录我在 <strong>macOS on DroidVM</strong> 方向上的尝试：把 macOS 装进 Android 手机上的
+        虚拟机里，涉及 UEFI 引导链（UniXNU / DarwinBoot）、设备树（ADT / FDT）、
+        crosvm 与 Gunyah 虚拟化，以及把整套镜像打包成可导入的 <code>.vmpkg</code>。
+      </p>
+    </section>
 
-<!-- 在此处更改此代码，将您的模板粘贴到第 15 行 -->
-<p>Hello World! 我是 [ututx]。这是我的网站！</p>
+    <section id="projects">
+      <h2>项目</h2>
+      <ul class="cards">
+        <li class="card">
+          <h3><a href="https://github.com/ututx/macOS-DroidVM" target="_blank" rel="noopener">macOS-DroidVM</a></h3>
+          <p>在 DroidVM 里运行 macOS 的镜像构建与引导链调试。</p>
+        </li>
+        <li class="card">
+          <h3>vmpkg 工具</h3>
+          <p>解析与生成 DroidVM 的 <code>.vmpkg</code> 镜像包，支持大文件分卷与完整性校验。</p>
+        </li>
+        <li class="card">
+          <h3>本仓库</h3>
+          <p>这个 GitHub Pages 站点本身：手写 HTML / CSS，无框架、无构建步骤。</p>
+        </li>
+      </ul>
+    </section>
 
+    <section id="notes">
+      <h2>笔记</h2>
+      <p>
+        调试过程中整理的说明文档放在
+        <a href="https://github.com/ututx/macOS-DroidVM" target="_blank" rel="noopener">macOS-DroidVM</a>
+        仓库里，包括构建方案、设备树对齐过程与引导链各阶段的日志分析。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> ututx · 用 HTML 与 CSS 手写</p>
+  </footer>
 </body>
 </html>
