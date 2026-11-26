@@ -43,7 +43,7 @@ For style-only tweaks you can also just open `index.html` directly; every refere
 - **Colors** — the `:root` variables at the top of `styles.css` (`--bg`, `--accent`, …) drive the whole theme
 - **Copy** — the matching `<section>` in `index.html`
 - **Narrow screens** — the `@media (max-width: 480px)` block at the end of `styles.css`
-- **Footer year** — the value inside `<span id="year">` in `index.html` is hard-coded
+- **Footer year** — written by a few lines of inline script at the bottom of `index.html`; the hard-coded `2026` is only a fallback when scripts are disabled
 
 ## Deployment
 

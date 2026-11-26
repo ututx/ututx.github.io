@@ -43,7 +43,7 @@ python3 -m http.server 8000
 - **配色**：`styles.css` 顶部的 `:root` 变量（`--bg`、`--accent` 等），改一处全站生效
 - **文案**：`index.html` 里对应的 `<section>`
 - **窄屏**：`styles.css` 末尾的 `@media (max-width: 480px)`
-- **页脚年份**：`index.html` 里 `<span id="year">` 的值，目前是写死的
+- **页脚年份**：页面底部一小段内联脚本按访问时间写入 `<span id="year">`；HTML 里写死的 `2026` 是脚本被禁用时的兜底值
 
 ## 部署
 
